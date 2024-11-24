@@ -6601,8 +6601,7 @@
 			]
 		},
 		"biome_identifiers": {
-			"type": "string",
-			"enum": []
+			"type": "string"
 		},
 		"camera_preset_identifiers": {
 			"type": "string",
@@ -6964,20 +6963,15 @@
 			]
 		},
 		"aim_assist_categories_identifiers": {
-			"type": "string",
-			"enum": []
+			"type": "string"
 		},
 		"aim_assist_preset_identifiers": {
 			"type": "string",
-			"enum": [
-				"minecraft:aim_assist_default"
-			]
+			"enum": ["minecraft:aim_assist_default"]
 		},
 		"jigsaw_structure_identifiers": {
 			"type": "string",
-			"enum": [
-				"minecraft:trail_ruins"
-			]
+			"enum": ["minecraft:trail_ruins"]
 		},
 		"template_pool_identifiers": {
 			"type": "string",
@@ -7001,33 +6995,23 @@
 		},
 		"structure_set_identifiers": {
 			"type": "string",
-			"enum": [
-				"minecraft:trail_ruins"
-			]
+			"enum": ["minecraft:trail_ruins"]
 		},
 		"atmosphere_settings_identifiers": {
 			"type": "string",
-			"enum": [
-				"minecraft:default_atmospherics"
-			]
+			"enum": ["minecraft:default_atmospherics"]
 		},
 		"color_grading_settings_identifiers": {
 			"type": "string",
-			"enum": [
-				"minecraft:default_color_grading"
-			]
+			"enum": ["minecraft:default_color_grading"]
 		},
 		"lighting_settings_identifiers": {
 			"type": "string",
-			"enum": [
-				"minecraft:default_lighting"
-			]
+			"enum": ["minecraft:default_lighting"]
 		},
 		"water_settings_identifiers": {
 			"type": "string",
-			"enum": [
-				"minecraft:default_water"
-			]
+			"enum": ["minecraft:default_water"]
 		}
 	}
 }
