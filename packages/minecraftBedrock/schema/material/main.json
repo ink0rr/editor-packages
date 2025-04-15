@@ -276,13 +276,15 @@
 			}
 		}
 	},
-	"required": ["version", "materials"],
+	"required": ["materials"],
 	"properties": {
-		"version": {
-			"type": "string"
-		},
 		"materials": {
 			"type": "object",
+			"properties": {
+				"version": {
+					"type": "string"
+				}
+			},
 			"patternProperties": {
 				".+": {
 					"$ref": "#/definitions/material"
