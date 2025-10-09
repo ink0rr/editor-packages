@@ -7439,8 +7439,7 @@
 			]
 		},
 		"aim_assist_categories_identifiers": {
-			"type": "string",
-			"enum": []
+			"type": "string"
 		},
 		"aim_assist_preset_identifiers": {
 			"type": "string",
@@ -7449,8 +7448,7 @@
 			]
 		},
 		"jigsaw_structure_identifiers": {
-			"type": "string",
-			"enum": []
+			"type": "string"
 		},
 		"template_pool_identifiers": {
 			"type": "string",
@@ -7546,8 +7544,7 @@
 			]
 		},
 		"cubemap_settings_identifiers": {
-			"type": "string",
-			"enum": []
+			"type": "string"
 		}
 	}
 }
