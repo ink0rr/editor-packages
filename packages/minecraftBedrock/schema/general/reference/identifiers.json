@@ -292,7 +292,7 @@
 			"type": "string",
 			"anyOf": [
 				{
-					"$ref": "../../voxelShape/dynamic/identiferEnum.json"
+					"$ref": "../../voxelShape/dynamic/identifierEnum.json"
 				}
 			]
 		}
